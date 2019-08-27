@@ -1,0 +1,20 @@
+Little more gyan to this:
+We can use else clause with the try block, the else block will only run when there is no exception raised. For eg.
+try:
+f = open('some-file.txt')
+except IOError:
+print("File doesn't exist :-(")
+else:
+print("File exists!")
+finally:
+f.close()
+
+Simple way:
+try:
+print("I'll try not to raise an exception.")
+except:
+print("I will catch the exception if try block raises any")
+else:
+print("I will run if Mr try did not raise any exception")
+finally:
+print("Finally: I'm going to run anyway. Nobody can stop me :P")
