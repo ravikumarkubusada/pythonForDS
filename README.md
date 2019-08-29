@@ -13,3 +13,9 @@ contains all the basics things required for the python
 3. set
 4. Dictonary
 5. Strings
+
+## Functions
+
+## Numpy
+
+## Matplotlib
